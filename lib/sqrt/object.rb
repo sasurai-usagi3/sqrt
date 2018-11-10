@@ -16,4 +16,14 @@ class Sqrt::Object
       Sqrt::Object.new(@coefficient * target, @value)
     end
   end
+
+  def **(x)
+    return 1 if x.zero?
+
+    if x.class == Integer
+      x.even? ? (@coefficient ** x) * (@value ** (x / 2)) : Sqrt::Object.new((@coefficient ** x) * (@value ** (x / 2)), @value)
+    else
+      self.to_f ** x
+    end
+  end
 end
