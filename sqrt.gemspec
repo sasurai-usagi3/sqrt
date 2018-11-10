@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.email         = ['sasurai.usagi3@gmail.com']
 
   spec.summary       = %q{Square root object}
-  spec.description   = %q{Add Square root object}
+  spec.description   = %q{Add Square root object. Mutliply, Exponential, to_f is implemented.}
   spec.homepage      = 'https://github.com/sasurai-usagi3/sqrt'
   spec.license       = 'MIT'
 
