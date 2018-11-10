@@ -1,5 +1,7 @@
-require "sqrt/version"
+require 'sqrt/version'
+require 'sqrt/times'
+require 'sqrt/object'
 
 module Sqrt
-  # Your code goes here...
+  include Sqrt::Times
 end
