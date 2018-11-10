@@ -1,8 +1,6 @@
 # Sqrt
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/sqrt`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+This gem aim to exactly calc formula including Square root.
 
 ## Installation
 
@@ -14,15 +12,29 @@ gem 'sqrt'
 
 And then execute:
 
-    $ bundle
+`$ bundle`
 
 Or install it yourself as:
 
-    $ gem install sqrt
+`$ gem install sqrt`
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+x1 = Sqrt::Object.new(2, 3) # This means 2 * sqrt(3). arguments is integer, float, rational, complex.
+x2 = Sqrt::Object.new(1, 2)
+
+x1.to_f
+# => 3.4641016151377544
+
+x1 * x2
+# => Sqrt::Object.new(2, 6)
+
+x1 ** 2
+# => 12
+```
+
+*Devide, add and  substruct is under developing.*
 
 ## Development
 
