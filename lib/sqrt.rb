@@ -1,5 +1,5 @@
-require "sqrt/version"
+require 'sqrt/version'
+require 'sqrt/object'
 
 module Sqrt
-  # Your code goes here...
 end
